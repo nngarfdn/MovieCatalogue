@@ -1,8 +1,8 @@
 package com.nanangarifudin.moviecatalogue.utils
 
 import com.nanangarifudin.moviecatalogue.R
-import com.nanangarifudin.moviecatalogue.data.MovieEntity
-import com.nanangarifudin.moviecatalogue.data.TvShowEntity
+import com.nanangarifudin.moviecatalogue.data.local.MovieEntity
+import com.nanangarifudin.moviecatalogue.data.local.TvShowEntity
 
 object DataDummy {
     fun generateDummyMovies(): ArrayList<MovieEntity> {

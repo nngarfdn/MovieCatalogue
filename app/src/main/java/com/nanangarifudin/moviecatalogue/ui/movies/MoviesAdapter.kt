@@ -8,17 +8,17 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.nanangarifudin.moviecatalogue.R
-import com.nanangarifudin.moviecatalogue.data.MovieEntity
 import com.nanangarifudin.moviecatalogue.ui.detail.DetailActivity
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_movies_tv.view.*
 
+
 class MoviesAdapter :
         RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
 
-    private lateinit var cardList: List<MovieEntity>
+    private lateinit var cardList: List<com.nanangarifudin.moviecatalogue.data.remote.response.Result>
 
-    fun setData(cardList: List<MovieEntity>){
+    fun setData(cardList: List<com.nanangarifudin.moviecatalogue.data.remote.response.Result>){
         this.cardList = cardList
     }
 
@@ -42,7 +42,7 @@ class MoviesAdapter :
         holder.name.text = currentItem.title
 
         Picasso.get()
-                .load(currentItem.poster)
+                .load(currentItem.poster_path)
                 .fit()
                 .centerCrop()
                 .into(holder.photo)

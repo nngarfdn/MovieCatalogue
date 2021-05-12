@@ -1,7 +1,7 @@
 package com.nanangarifudin.moviecatalogue.ui.tvshow
 
 import androidx.lifecycle.ViewModel
-import com.nanangarifudin.moviecatalogue.data.TvShowEntity
+import com.nanangarifudin.moviecatalogue.data.local.TvShowEntity
 import com.nanangarifudin.moviecatalogue.utils.DataDummy
 
 class TVShowViewModel : ViewModel() {

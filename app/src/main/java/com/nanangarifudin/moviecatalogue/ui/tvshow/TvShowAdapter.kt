@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.nanangarifudin.moviecatalogue.R
-import com.nanangarifudin.moviecatalogue.data.TvShowEntity
+import com.nanangarifudin.moviecatalogue.data.local.TvShowEntity
 import com.nanangarifudin.moviecatalogue.ui.detail.DetailActivity
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_movies_tv.view.*

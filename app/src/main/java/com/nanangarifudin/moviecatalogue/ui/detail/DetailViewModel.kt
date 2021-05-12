@@ -1,8 +1,8 @@
 package com.nanangarifudin.moviecatalogue.ui.detail
 
 import androidx.lifecycle.ViewModel
-import com.nanangarifudin.moviecatalogue.data.MovieEntity
-import com.nanangarifudin.moviecatalogue.data.TvShowEntity
+import com.nanangarifudin.moviecatalogue.data.local.MovieEntity
+import com.nanangarifudin.moviecatalogue.data.local.TvShowEntity
 import com.nanangarifudin.moviecatalogue.utils.DataDummy
 
 class DetailViewModel : ViewModel() {

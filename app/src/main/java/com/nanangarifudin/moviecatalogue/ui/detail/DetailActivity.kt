@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ShareCompat
 import androidx.lifecycle.ViewModelProvider
 import com.nanangarifudin.moviecatalogue.R
-import com.nanangarifudin.moviecatalogue.data.MovieEntity
-import com.nanangarifudin.moviecatalogue.data.TvShowEntity
+import com.nanangarifudin.moviecatalogue.data.local.MovieEntity
+import com.nanangarifudin.moviecatalogue.data.local.TvShowEntity
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_detail.*
 

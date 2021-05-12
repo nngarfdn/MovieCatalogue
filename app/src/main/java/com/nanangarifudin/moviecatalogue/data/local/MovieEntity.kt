@@ -1,10 +1,10 @@
-package com.nanangarifudin.moviecatalogue.data
+package com.nanangarifudin.moviecatalogue.data.local
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class TvShowEntity(
+data class MovieEntity(
     var id : Int,
     var title : String,
     var description : String,
